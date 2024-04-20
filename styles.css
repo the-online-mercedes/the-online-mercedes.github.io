@@ -1,0 +1,423 @@
+/* CSS Document
+/* CSS designed by FAR Studio Designs */
+/* Fall 2008 */
+/* Colors
+
+  Background navy blue:	#020233
+  Background Blue		#0d266c
+  Text gold:			#e5af50		da9c30
+  Text light gold:		#f4d296
+  Text fuchsia:			#9d11dd
+  Text dark fuchsia:	#5a0685
+  Text light fuchsia 	#c171e1  
+  Text Light Blue:		#d4e2ee
+  Text Light Purple		#b0adf1
+
+*/
+  
+
+			
+
+body 	{  
+		background: #011a2a url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/classes/wizardart/wizardblue_bg.jpg) repeat-x;
+		color: #f4d296;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 62.5%;
+		margin: 0px; padding: 0px;
+		}
+*		{
+		margin:0; padding:0;
+		}		
+
+h1		{
+		height: 12px;	/* image replacement */
+		text-indent: -9000px;
+		width: 200px;
+		}
+h2, h3, h4, h5 {
+		margin: 6px 0 15px;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		}
+
+h2 		{
+		color: #b0adf1;
+		font-size: 2em;
+		}
+	
+h3 		{color: #d4e2ee; 
+		font-size: 1.9em;
+		font-weight: normal;
+		}
+h4		{color: #e5af50;
+		margin: 20px 0 10px;
+		font-size: 1.8em;
+		}
+
+a		{color: #da9c30; 
+		text-decoration: none;
+		font-style: italic;
+		}
+a:visited {color: #e5af50;}
+a:hover 	{color: #d4e2ee;}
+a:active	{color: #c171e1;}
+		
+img		{
+		border: none;
+		padding: 5px 10px 5px 5px;
+		}
+li		{list-style-type:none;
+		font-size: 1.3em;
+		}
+
+p {
+		font-size: 1.5em;
+		margin: .6em 0;
+		}
+
+table	{
+		background: #f4efe1;
+		border: 2px solid #cb7f08;
+		}
+	td	{
+		color: #020233; 
+		font-size: 1.5em;
+		padding: 10px;
+		width: 124px;
+		}	
+	td.tdtitle	{
+		background: #780f00 url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/classes/wizardmain_sb_pat.jpg);
+		border: 2px solid #cb7f08;
+		color: #cb7f08;
+		font-variant: small-caps;
+		font-size: 1.6em;
+		padding: 10px;
+		}
+	td.tdwide	{
+		width: 320px;
+		}
+
+		
+/* id  */
+
+#wrapper	{  
+			background: #011a2a url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/classes/wizardart/wizardblue_main_bg.jpg);
+			background-repeat: repeat-y;
+			height: 100%;
+			min-height: 100%;
+			height: auto !important;	
+			margin: 0 auto; 
+			position: relative;
+			width: 900px;
+			}
+	#assign	#wrapper	{
+			background: #011a2a url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/classes/wizardart/wizardblue_main_bg.jpg);
+			width: 902px;
+			}
+	#roster	#wrapper	{
+			background: transparent url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/classes/wizardassign_main_bg.jpg); 
+			width: 902px;
+			}
+	#sigil	#wrapper	{
+			background: transparent url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/classes/wizardassign_main_bg.jpg); 
+			width: 902px;
+			}
+						
+#header	{
+			background: transparent url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/classes/wizardart/wizardblue_header.jpg) no-repeat; 
+			height: 248px;
+			margin: 0;
+			}						
+	#assign	#header	{
+			background: transparent url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/classes/wizardart/wizardblue_header.jpg); 
+			height: 234px;
+			}
+	#roster	#header	{
+			background: transparent url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/classes/wizardroster_header.jpg); 
+			height: 240px;
+			}
+	
+	#sigil	#header	{
+			background: transparent url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/classes/wizardsigil_header.jpg); 
+			height: 240px;
+			}
+
+/* _________________________________________________Menu________________________________________________________________  */			
+
+#menu	{
+			left: 58px;
+			position: absolute;
+			top: 160px;
+			}
+
+	
+	#menu	ul	{float:left;
+				}
+	#menu	li	{
+				font-size: 1.7em;
+				}							 
+
+/*  Drop Down Menus adapted from CSSnewbie.com  and Suckerfish */
+				
+#nav, #nav ul {     
+			padding: 0px;     
+			margin: 0; 
+			list-style: none;    
+			z-index: 999; 
+			} 
+		#nav a:link 		{     
+					color: #e5af50;
+					display: block;
+					width: 2em; 	
+					} 
+		#nav a:visited 		{     
+					color: #d4e2ee;
+					}
+		#nav a:hover 		{     
+					color: #c171e1;
+					}
+		#nav a:active 		{     
+					color: #f6ebc8;
+					}
+		#nav li 	{     	
+					background: #780f00 url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/classes/wizardmain_sb_pat.jpg);
+					border: 2px solid #e5c574;
+					float: left;     
+					margin: 2px 0;
+					padding: 4px 12px;
+					width: 6em; 
+					}		
+		#nav li ul 	{     
+					position: absolute; 
+					left: -999em; 
+					} 
+		#nav li ul 	li { 
+					font-size: .9em;
+					padding:6px;
+					.top:  1.4em;
+					width: 6.2em;
+					}    
+		#nav li:hover ul {
+					left: auto;
+					}
+		#nav li:hover li {
+					float: none;
+					.float: left;
+					}
+		#nav li:hover ul, #nav li.sfhover ul {
+					left: auto; 
+					margin: 2px;
+					width: 100%;
+					}
+		#nav > li	{background: none; border:none;}
+
+						
+		#nav li span.soon a 		{     
+					color: #000; background:url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/classes/wizard_menu_forums.gif) no-repeat;
+					margin: 4px 0 0 -18px;
+					padding: 6px 20px 0;
+					width: 56px;
+					}		
+		#nav li span.soon a:hover 		{     
+					color: #000; background:url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/classes/wizard_menu_soon.gif) no-repeat;
+					padding: 6px 28px 0;
+					width: 68px;
+					}
+
+/*  Main
+*******************************************************************************************************/
+					
+#main	{
+			position: relative;
+			left: 40px;
+			padding: 0 0 40px;
+			width:550px;
+			}
+	#roster #main, #assign #main, #sigil #main	{
+				left: 50px;
+			}
+	
+	#welcome	img {
+			margin: 0px 20px 30px 20px;
+			}
+			
+/* Sidebar
+*******************************************************************************************************/
+
+
+div#sidebar {
+			color: #fff;
+			left: 666px;
+			position: absolute;
+			top: 260px;
+			width: 230px;
+			}	
+		#sidebar	img, li	{
+				margin: 0 0 6px;
+				}				
+		#sidebar	.links  	a	{
+				display: block;
+				padding: 2px;
+				}
+		#sidebar	.links  a:hover	{
+				background: #020233;
+				color: #d4e2ee;
+				}
+	#assign #sidebar	{				
+			height: 500px;
+			overflow: scroll;
+			}
+	
+	#roster #sidebar, #assign #sidebar, #sigil #sidebar	{
+			left: 650px;
+			}
+			
+#bottom		{
+			background: #020233 url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/classes/wizardmain_bottom3.jpg);
+			height: 52px;
+			width: 951px;
+			}
+div#footer	{
+			background: transparent url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/students/wizard_footer.jpg);
+			clear: both;
+			color: #d756f2;
+			font-size: .9em;
+			height: 60px;
+			margin: 0 auto; 
+			padding: 30px 20px 10px;
+			text-align:center;
+			z-index: 10;
+			}			
+			/* Sticky footer code */
+
+html, body, #wrapper {height: 100%;
+			}
+body > #wrapper		{height: auto; min-height: 100%;
+			}	
+			
+/*  ******************************************************Utilities	*********************************************/										
+			
+.right		{float: right; }
+.left		{float: left;}	
+.clear		{clear: both;}
+.downmid		{margin: 10px 0 0 0; }	
+.downmore		{margin: 50px 0 0 0; }		
+.quote		{
+			color: #e5af50;
+			font-style: italic;
+			margin: 0 16px;
+			}	
+	
+.center		{margin: 0 auto;
+			text-align: center;
+			}
+/* code for CSS button swap */			
+#wizardwhat	{
+			position: relative;
+			top: 0px;
+			}
+	#wizardwhat	a	{
+				background: url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/students/wizard_button_what.jpg) no-repeat;
+				display: block;
+				height: 38px;
+				position: absolute;
+				outline: none;
+				text-indent: -900%;
+				width: 218px;
+				}						
+	#wizardwhat	a:hover	{
+				background-position: left bottom;
+				}
+	.wideinput	textarea
+	{
+		background: #5e92fc;
+		color: #020233;
+		width: 540px;
+		height: 250px;
+	}
+
+.silvia		{
+			color: #c171e1;
+			font-family:Arial, Helvetica, sans-serif;
+			font-style: italic;
+			font-size: 1.2em;
+			padding: 20px 0;
+			}				
+.bar		{
+			background: #020233 url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/classes/wizardmain_border.jpg);
+			margin: 20px -40px 20px -35px;
+			padding: 16px 0;
+			width: 620px;
+			}
+#roster	.bar	{
+			margin: 20px -40px 20px -40px;
+			}
+#sigil	.bar	{
+			margin: 20px -40px 20px -40px;
+			}	
+
+.barside	{
+			background: #020233 url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt10/Wizards/ani_Wizard2sidebar.gif);
+			margin: 20px -40px 10px -18px;
+			padding: 6px 0;
+			width: 210px;
+			}
+
+/****************************************************Sigil book***************************************************** */
+
+#sigil table	{
+		background: #f4efe1;
+		border: 2px solid #cb7f08;
+		}
+#sigil 	td	{
+		border: 2px solid #cb7f08;
+		color: #020233; 
+		font-size: 1.5em;
+		padding: 10px;
+		text-align: center;
+		width: 160px;
+		}	
+#sigil 	td.tdtitle	{
+		background: #780f00 url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/classes/wizardmain_sb_pat.jpg);
+		border: 2px solid #cb7f08;
+		color: #cb7f08;
+		font-variant: small-caps;
+		font-size: 1.6em;
+		padding: 10px;
+		}
+#sigil 	td.tdwide	{
+		width: 320px;
+		}
+
+.sig	{
+			background: transparent url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt10/Wizards/silvia_sig2.gif)  no-repeat;
+			margin: 20px;
+			padding: 26px 0;
+			width: 500px;
+			}
+.fasig	{
+			background: transparent url(/web/20190507022751im_/http://theschoolforheroes.com/SfHArt/fa_sig_wiz.png) no-repeat;
+			margin: 20px;
+			padding: 8px 0;
+			width: 500px;
+			}
+			
+/*
+     FILE ARCHIVED ON 02:27:51 May 07, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:15:27 Sep 24, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 242.841
+  exclusion.robots: 0.125
+  exclusion.robots.policy: 0.111
+  cdx.remote: 0.087
+  esindex: 0.015
+  LoadShardBlock: 54.166 (3)
+  PetaboxLoader3.datanode: 80.176 (4)
+  load_resource: 74.321
+  PetaboxLoader3.resolve: 37.951
+*/
