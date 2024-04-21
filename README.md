@@ -1,2 +1,2 @@
 # the-online-mercedes.github.io
-website
+The personal website of Mercedes Powers
